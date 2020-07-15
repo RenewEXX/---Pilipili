@@ -1,0 +1,131 @@
+.nav-div {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.nav-container {
+	/* 流式布局 */
+	max-width:68px;
+	height: 740px;
+	position: absolute;
+	left: 12px;
+	top: 10px;
+	right: 0;
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 17px;
+	background: linear-gradient(145deg, #e6e6e6, #ffffff);
+	box-shadow: 32px 32px 64px #919191,
+		-32px -32px 64px #ffffff;
+
+}
+
+.nav-box {
+	margin: 10px;
+}
+.navvv{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 7px;
+	left: 14px;
+}
+
+.nav-img {
+	width: 40px;
+	position: absolute;
+	top: 70px;
+	left: 6px;
+	padding: 7px;
+	border-radius: 12px;
+	background: linear-gradient(145deg, #e6bcbc, #ffe0e0);
+	box-shadow:  33px 33px 56px #ba9999, 
+	             -33px -33px 56px #ffffff;
+}
+
+.nav-img2 {
+	width: 40px;
+	position: absolute;
+	top: 150px;
+	left: 6px;
+	padding: 7px;
+	border-radius: 12px;
+	background: linear-gradient(145deg, #e6bcbc, #ffe0e0);
+	box-shadow:  33px 33px 56px #ba9999, 
+	             -33px -33px 56px #ffffff;
+}
+
+.nav-img3 {
+	width: 37px;
+	position: absolute;
+	top: 235px;
+	left: 6px;
+	padding: 7px;
+	border-radius: 12px;
+	background: linear-gradient(145deg, #e6bcbc, #ffe0e0);
+	box-shadow:  33px 33px 56px #ba9999, 
+	             -33px -33px 56px #ffffff;
+}
+
+.nav-img4 {
+	width: 37px;
+	position: absolute;
+	top: 315px;
+	left: 6px;
+	padding: 7px;
+	border-radius: 12px;
+	background: linear-gradient(145deg, #e6bcbc, #ffe0e0);
+	box-shadow:  33px 33px 56px #ba9999, 
+	             -33px -33px 56px #ffffff;
+}
+
+.nav-img5 {
+	width: 37px;
+	position: absolute;
+	top: 395px;
+	left: 6px;
+	padding: 7px;
+	border-radius: 12px;
+	background: linear-gradient(145deg, #e6bcbc, #ffe0e0);
+	box-shadow:  33px 33px 56px #ba9999, 
+	             -33px -33px 56px #ffffff;
+}
+
+.nav-img6 {
+	width: 37px;
+	position: absolute;
+	top: 475px;
+	left: 6px;
+	padding: 7px;
+	border-radius: 12px;
+	background: linear-gradient(145deg, #e6bcbc, #ffe0e0);
+	box-shadow:  33px 33px 56px #ba9999, 
+	             -33px -33px 56px #ffffff;
+}
+
+.nav-img7 {
+	width: 37px;
+	position: absolute;
+	top: 555px;
+	left: 6px;
+	padding: 7px;
+	border-radius: 12px;
+	background: linear-gradient(145deg, #e6bcbc, #ffe0e0);
+	box-shadow:  33px 33px 56px #ba9999, 
+	             -33px -33px 56px #ffffff;
+}
+
+.nav-more {
+	width: 35px;
+	position: absolute;
+	top: 638px;
+	left: 6px;
+	padding: 7px;
+	border-radius: 12px;
+	background: linear-gradient(145deg, #e6bcbc, #ffe0e0);
+	box-shadow:  33px 33px 56px #ba9999, 
+	             -33px -33px 56px #ffffff;
+}

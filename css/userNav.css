@@ -1,0 +1,38 @@
+.userNav-container {
+	/* 流式布局 */
+	max-width: 330px;
+	height: 54px;
+	position: absolute;
+	left: 1070px;
+	top: 6px;
+	right: 0;
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 20px;
+	background: linear-gradient(145deg, #e6e6e6, #ffffff);
+	box-shadow: 12px 12px 24px #d1d1d1,
+		-12px -12px 24px #ffffff;
+
+}
+.userNav-user{
+	position: relative;
+	width: 40px;
+	left: 270px;
+}
+.userNav-history{
+	position: relative;
+	width: 30px;
+	left: -70px;
+}
+.userNav-upload{
+	position: relative;
+	width: 30px;
+	left: -90px;
+}
+.userNav-news{
+	position: relative;
+	width: 27px;
+	left: -105px;
+	}

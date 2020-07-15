@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+	/* vh就是当前屏幕可见高度的1%，也就是说 */
+	/* height:100vh == height:100%; */
+	/* 但是当元素没有内容时候，设置height:100%，该元素不会被撑开，此时高度为0， */
+	/* 但是设置height:100vh，该元素会被撑开屏幕高度一致。 */
+    height: 100vh;
+	/* 弹性布局 */
+    display: flex;
+	/* 位于div中心 */
+    justify-content: center;
+	/* 居中对齐弹性盒的各项 <div> 元素 */
+    align-items: center;
+    background-color: #efeeee;
+}
+.container{
+    width: 700px;
+    height: 600px;
+    display: flex;
+	/* 在弹性盒对象的 <div> 元素中的各项周围留有空白 */
+    justify-content: space-around;
+	/* 让弹性盒元素在必要的时候拆行 */
+    flex-wrap: wrap;
+    align-items: center;
+}
+.container .box{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100px;
+    height: 140px;
+    margin: 20px;
+}
+.container .box .img{
+    width: 100px;
+    height: 100px;
+    box-shadow: 18px 18px 30px rgba(0, 0, 0, 0.1),
+    -18px -18px 30px rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #efeeee;
+    transition: box-shadow .2s ease-out;
+    position: relative;
+}
+
+.container .box .img  img{
+    width: 60px;
+    transition: width 0.2s ease-out;
+}
+.container .box p{
+    color: slategrey;
+}
+.container .box .img:hover{
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2),
+    0px 0px 0px rgba(255, 255, 255, 0.8),
+    inset 18px 18px 30px rgba(0, 0, 0, 0.1),
+    inset -18px -18px 30px rgba(255, 255, 255, 1);
+    transition: box-shadow .2s ease-out;
+}
+.container .box .img:hover img{
+    width: 58px;
+    transition: width 0.2s ease-out;
+}
